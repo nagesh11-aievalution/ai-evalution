@@ -2,7 +2,7 @@
 
 | Phase | Scope | Status |
 |---|---|---|
-| 1 | Project foundation | **In progress**: see acceptance below |
+| 1 | Project foundation | **Built**: CI green, waiting for on-phone check |
 | 2 | Minimalist UI: chat, history, memory, settings screens, navigation | Not started |
 | 3 | Voice: speech-to-text, text-to-speech, interruptible playback, voice states | Not started |
 | 4 | AI engine: provider abstraction (Claude, OpenAI, Gemini, local), encrypted keys, tool calling, fallback | Not started |
@@ -15,9 +15,9 @@
 
 ## Phase 1 acceptance criteria
 
-- [ ] `testDebugUnitTest` passes (SystemStatus formatting, HomeViewModel load/refresh/error).
-- [ ] `lintDebug` passes.
-- [ ] `assembleDebug` produces an APK in CI.
+- [x] `testDebugUnitTest` passes (SystemStatus formatting, HomeViewModel load/refresh/error).
+- [x] `lintDebug` passes.
+- [x] `assembleDebug` produces an APK in CI.
 - [ ] On a phone: app installs, opens to a black screen with the animated red core; the status panel shows real device, Android version, battery, network and microphone state; **Allow microphone** opens the system permission dialog and the panel updates afterwards.
 
 The last item needs a real device and is checked by the user.
