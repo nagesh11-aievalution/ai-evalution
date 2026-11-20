@@ -1,0 +1,8 @@
+<resources>
+    <!-- Window theme only; all UI styling is done in Compose (ui/theme). -->
+    <style name="Theme.Ultron" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/ultron_black</item>
+        <item name="android:statusBarColor">@color/ultron_black</item>
+        <item name="android:navigationBarColor">@color/ultron_black</item>
+    </style>
+</resources>
